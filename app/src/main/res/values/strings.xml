@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">DataStore</string>
+    <string name="completed">Completed</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="dob">DOB</string>
+    <string name="contact">Contact</string>
+    <string name="update">Update</string>
+    <string name="preference">Preference</string>
+    <string name="proto_buffer">Proto Buffer</string>
+</resources>
