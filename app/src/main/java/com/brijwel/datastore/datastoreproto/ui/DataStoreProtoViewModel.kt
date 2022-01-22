@@ -1,7 +1,8 @@
-package com.brijwel.datastore.datastoreproto
+package com.brijwel.datastore.datastoreproto.ui
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.brijwel.datastore.datastoreproto.repo.UserRepository
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 

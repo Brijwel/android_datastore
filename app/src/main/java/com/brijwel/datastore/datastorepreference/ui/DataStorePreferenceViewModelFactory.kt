@@ -1,8 +1,7 @@
-package com.brijwel.datastore.datastorepreference.factory
+package com.brijwel.datastore.datastorepreference.ui
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import com.brijwel.datastore.datastorepreference.ui.DataStorePreferenceViewModel
 import com.brijwel.datastore.datastorepreference.pref.PreferenceStorage
 
 

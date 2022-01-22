@@ -1,4 +1,4 @@
-package com.brijwel.datastore.datastoreproto
+package com.brijwel.datastore.datastoreproto.repo
 
 import android.util.Log
 import androidx.datastore.core.DataStore
@@ -7,9 +7,9 @@ import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.catch
 import java.io.IOException
 
-class UserRepository(private val userPreferencesStore: DataStore<UserData>) {
+class UserRepositoryImpl(private val userPreferencesStore: DataStore<UserData>) : UserRepository {
 
-    val userData: Flow<UserData> = userPreferencesStore.data
+    override val userData: Flow<UserData> = userPreferencesStore.data
         .catch { exception ->
             if (exception is IOException) {
                 Log.d("Error", exception.message.toString())
@@ -20,7 +20,7 @@ class UserRepository(private val userPreferencesStore: DataStore<UserData>) {
         }
 
 
-    suspend fun updateUserPreference(
+    override suspend fun updateUserPreference(
         firstName: String,
         lastName: String,
         dob: String,

@@ -1,4 +1,4 @@
-package com.brijwel.datastore.datastoreproto
+package com.brijwel.datastore.datastoreproto.ui
 
 import android.app.DatePickerDialog
 import android.os.Bundle
@@ -35,7 +35,7 @@ class DataStoreProtoFragment : Fragment(R.layout.fragment_data_store_proto) {
                     calender.set(Calendar.MONTH, monthOfYear)
                     calender.set(Calendar.DAY_OF_MONTH, dayOfMonth)
 
-                    val myFormat = "dd.MM.yyyy"
+                    val myFormat = "dd-MM-yyyy"
                     val sdf = SimpleDateFormat(myFormat, Locale.getDefault())
                     binding.dob.text = sdf.format(calender.time)
 

@@ -9,7 +9,6 @@ import androidx.lifecycle.lifecycleScope
 import androidx.lifecycle.repeatOnLifecycle
 import com.brijwel.datastore.R
 import com.brijwel.datastore.databinding.FragmentDataStorePreferenceBinding
-import com.brijwel.datastore.datastorepreference.factory.DataStorePreferenceViewModelFactory
 import com.brijwel.datastore.datastorepreference.pref.PreferenceStorageImpl
 import com.brijwel.datastore.datastorepreference.util.dataStore
 import kotlinx.coroutines.flow.collectLatest

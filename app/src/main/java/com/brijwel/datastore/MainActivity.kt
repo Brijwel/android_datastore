@@ -7,7 +7,7 @@ import androidx.fragment.app.commit
 import androidx.fragment.app.replace
 import com.brijwel.datastore.databinding.ActivityMainBinding
 import com.brijwel.datastore.datastorepreference.ui.DataStorePreferenceFragment
-import com.brijwel.datastore.datastoreproto.DataStoreProtoFragment
+import com.brijwel.datastore.datastoreproto.ui.DataStoreProtoFragment
 import com.google.android.material.tabs.TabLayout
 
 class MainActivity : AppCompatActivity() {
